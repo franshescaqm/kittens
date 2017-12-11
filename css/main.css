@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*little background for mobile*/
+  .background-dawn {
+    background-image: url(../assets/img/dawn.png) no-repeat center center fixed;
+    width: 100%;
+    height: 637px;
+  }
+
+  .kitten-large {
+    position: fixed;
+    top: 45%;
+    right: 38%;
+  }
+
+/*Biggest background for laptop*/
+@media only screen and (min-width: 992px) {
+  .background-sunny {
+    background: url('../assets/img/sunny.jpg') no-repeat center center fixed;
+    width: 100%;
+    height: 637px;
+   }
+
+  .kitten-medium{
+     position: fixed;
+     top: 45%;
+     right: 38%;
+   }
+}
+
+/*medium-sized background fot tablets and Ipads*/
+@media only screen and (min-width: 768px) {
+  .background-night {
+    background: url('../assets/img/night.jpg') no-repeat center center fixed;
+    width: 100%;
+    height: 637px;
+  }
+
+  .kitten-small {
+    position: fixed;
+    top: 45%;
+    right: 38%;
+  }
+
+}
